@@ -1,0 +1,17 @@
+# requirements.txt
+# Projeto: Rastreador de Encomendas com Tkinter e Twilio
+# Python 3.11.9 (Requerido)
+
+# Biblioteca para manipulação de dados, usada com DataFrames
+pandas==2.2.3
+
+# Biblioteca para envio de SMS e integração com a API da Twilio
+twilio==9.6.0
+
+# OBS:
+# - tkinter não está listado aqui pois faz parte da biblioteca padrão do Python (incluído em instalações comuns do Python para Windows/macOS/Linux).
+# - os, sys, datetime também são da biblioteca padrão e não devem ser incluídos.
+
+# Recomendado usar um ambiente virtual (venv) para isolar as dependências.
+# Para instalar as dependências:
+#     pip install -r requirements.txt
